@@ -12,12 +12,7 @@ public class Repetir : MonoBehaviour
     {
         btn.onClick.AddListener(Pulsado);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     void Pulsado(){
 	SceneManager.LoadScene("pantallaInicio", LoadSceneMode.Single);
     }
