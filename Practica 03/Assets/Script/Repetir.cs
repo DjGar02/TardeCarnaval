@@ -14,6 +14,11 @@ public class Repetir : MonoBehaviour
     }
     
     void Pulsado(){
-	SceneManager.LoadScene("pantallaInicio", LoadSceneMode.Single);
+    if(SceneManager.GetActiveScene().name == "Carga"){
+        SceneManager.LoadScene("tercerNivel", LoadSceneMode.Single);
+    }
+    else{
+        SceneManager.LoadScene("pantallaInicio", LoadSceneMode.Single);
+    }
     }
 }

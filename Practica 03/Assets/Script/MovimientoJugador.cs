@@ -106,7 +106,7 @@ public class MovimientoJugador : MonoBehaviour
             if(monedas == 10)
             {
                 Debug.Log("Has termiando el juego");
-                SceneManager.LoadScene("tercerNivel", LoadSceneMode.Single);
+                SceneManager.LoadScene("Carga", LoadSceneMode.Single);
             }
         }
     }
